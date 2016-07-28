@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testProject>
+  <title>/S360-V1/.testproject</title>
+  <configPath>config</configPath>
+  <testsPath>tests</testsPath>
+  <templatesPath>templates</templatesPath>
+  <sourcePath>src</sourcePath>
+  <secureStoragePath>.secrets</secureStoragePath>
+  <browserDebugPort>0</browserDebugPort>
+  <connectionClasses>
+    <connectionClass name="sf">
+      <connections>
+        <connection name="SFDCAdmin">
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="beab3168-7f40-46c3-ab3b-6e52037a623b" url="sf:user=shuvendu.kumar@emc.com.cs.csuat;environment=SANDBOX"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
+  </connectionClasses>
+</testProject>

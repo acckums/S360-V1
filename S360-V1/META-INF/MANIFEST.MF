@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: S360-V1
+Bundle-SymbolicName: S360-V1
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: com.provar.core.testapi,
+ com.provar.core.model.base,
+ com.provar.core.lib.selenium-2.53.0,
+ com.provar.plugins.sf.apis
